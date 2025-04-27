@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+  }
+  
+  .logo {
+    /*font-family: montserrat;*/
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: red;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: black;
+    color: white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #ddd;
+  }
+  
+  .output-box {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    font-size: 18px;
+    color: black;
+    min-height: 50px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  
